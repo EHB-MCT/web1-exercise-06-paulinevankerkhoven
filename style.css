@@ -1,0 +1,59 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+.wrapper {
+    background-image: url(images/coco.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 900px;
+    margin: 0 auto 0 auto;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+
+a {
+    color: white;
+    border: orange;
+    border: width 10px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link {
+    margin-top: 10%;
+}
+
+.background {
+    float: left;
+    width: 100%;
+
+}
+
+.content {
+    float: right;
+    margin-left: 50%;
+    z-index: 1;
+    width: 50%;
+    margin-top: 5%;
+    padding: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.content img {
+    width: 300px;
+}
